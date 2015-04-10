@@ -1,7 +1,11 @@
-var spectrometer = require('../lib');
-var benchset = spectrometer.benchset;
-var compare = spectrometer.compare;
-var bench = spectrometer.bench;
+var spectrophotometer = require('../lib');
+var benchset = spectrophotometer.benchset;
+var compare = spectrophotometer.compare;
+var bench = spectrophotometer.bench;
+
+var pasync = require('pasync');
+var async = require('async');
+var Promise = require('es6-promise').Promise;
 
 benchset('Array iteration', function() {
 
@@ -42,9 +46,26 @@ benchset('Array iteration', function() {
 			}
 		});
 
+		bench('async#each', function(done) {
+			async.each(array, function(el, next) {
+				setImmediate(next);
+			}, done);
+		});
+
+		bench('pasync#eachSeries', function(done) {
+			pasync.eachSeries(array, function() {
+				return Promise.resolve();
+			}).then(done, done);
+		});
+
+		bench('pasync#each', function(done) {
+			pasync.each(array, function() {
+				return Promise.resolve();
+			}).then(done, done);
+		});
+
 	});
 
 });
 
-spectrometer.run();
 
