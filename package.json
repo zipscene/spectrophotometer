@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/zipscene/spectrometer/issues"
   },
-  "homepage": "https://github.com/zipscene/spectrometer"
+  "homepage": "https://github.com/zipscene/spectrometer",
+  "dependencies": {
+    "beautify-benchmark": "^0.2.4",
+    "benchmark": "^1.0.0",
+    "es6-promise": "^2.0.1",
+    "microtime": "^1.3.0",
+    "pasync": "^1.0.1"
+  }
 }
