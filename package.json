@@ -1,6 +1,6 @@
 {
   "name": "spectrophotometer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mocha-style benchmarks using benchmark.js",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zipscene/spectrometer"
+    "url": "https://github.com/zipscene/spectrophotometer"
   },
   "keywords": [
     "benchmark",
@@ -18,9 +18,9 @@
   "author": "Chris Breneman <chris.breneman@zipscene.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zipscene/spectrometer/issues"
+    "url": "https://github.com/zipscene/spectrophotometer/issues"
   },
-  "homepage": "https://github.com/zipscene/spectrometer",
+  "homepage": "https://github.com/zipscene/spectrophotometer",
   "dependencies": {
     "beautify-benchmark": "^0.2.4",
     "benchmark": "^1.0.0",

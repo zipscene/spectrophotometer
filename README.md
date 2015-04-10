@@ -56,7 +56,7 @@ There is also support for running a directory full of benchmark files.  Leave of
 `spectrophotometer.run()` line from each file, and create an index.js that looks like this:
 
 ```js
-var spectrophotometer = require('../lib');
+var spectrophotometer = require('spectrophotometer');
 spectrophotometer.runDir(__dirname);
 ```
 
