@@ -1,0 +1,24 @@
+{
+  "name": "spectrometer",
+  "version": "0.0.1",
+  "description": "Mocha-style benchmarks using benchmark.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zipscene/spectrometer"
+  },
+  "keywords": [
+    "benchmark",
+    "spectrometer",
+    "mocha"
+  ],
+  "author": "Chris Breneman <chris.breneman@zipscene.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zipscene/spectrometer/issues"
+  },
+  "homepage": "https://github.com/zipscene/spectrometer"
+}
