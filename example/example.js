@@ -5,7 +5,6 @@ var bench = spectrophotometer.bench;
 
 var pasync = require('pasync');
 var async = require('async');
-var Promise = require('es6-promise').Promise;
 
 benchset('Array iteration', function() {
 

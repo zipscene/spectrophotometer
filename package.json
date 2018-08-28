@@ -1,6 +1,6 @@
 {
   "name": "spectrophotometer",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Mocha-style benchmarks using benchmark.js",
   "main": "lib/index.js",
   "scripts": {
@@ -23,12 +23,15 @@
   "homepage": "https://github.com/zipscene/spectrophotometer",
   "dependencies": {
     "beautify-benchmark": "^0.2.4",
-    "benchmark": "^1.0.0",
-    "es6-promise": "^2.0.1",
-    "microtime": "^1.3.0",
-    "pasync": "^1.0.1"
+    "benchmark": "^2.1.4",
+    "es6-promise": "^4.2.4",
+    "microtime": "^2.1.8",
+    "pasync": "^1.5.0"
   },
   "devDependencies": {
-    "async": "^0.9.0"
+    "async": "^2.6.1"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
   }
 }
