@@ -1,6 +1,6 @@
 {
   "name": "spectrophotometer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Mocha-style benchmarks using benchmark.js",
   "main": "lib/index.js",
   "scripts": {
