@@ -1,6 +1,6 @@
 {
   "name": "spectrophotometer",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Mocha-style benchmarks using benchmark.js",
   "main": "lib/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "benchmark": "^2.1.4",
     "es6-promise": "^4.2.8",
     "microtime": "^3.0.0",
-    "pasync": "^1.5.0"
+    "pasync": "^2.0.0"
   },
   "devDependencies": {
     "async": "^3.2.0"
